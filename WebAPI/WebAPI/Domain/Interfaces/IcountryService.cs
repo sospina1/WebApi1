@@ -14,6 +14,6 @@ namespace WebAPI.Domain.Interfaces
         Task<Country> EditCountryAsync(Country country);
 
         Task<Country> DeleteCountryAsync(Guid id);
-
+        Task GetCountryByIdAsync(Guid id);
     }
 }
