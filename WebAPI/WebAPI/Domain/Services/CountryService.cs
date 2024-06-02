@@ -108,9 +108,6 @@ namespace WebAPI.Domain.Services
             throw new NotImplementedException();
         }
 
-        Task ICountryService.GetCountryByIdAsync(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
